@@ -1,0 +1,115 @@
+.menu {
+    margin: 0 auto;
+}
+
+.logo {
+    padding: 5px 20px;
+    width: 100px;
+    height: auto;
+}
+
+
+/* .content {
+    height: 100vh;
+} */
+
+nav {
+    box-shadow: 0 2px 2px lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 110px
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul.parent {
+    /* border: 2px red solid; */
+    display: flex;
+    gap: 45px;
+    /*Khoang cach giua cac phan tu trong flex-box*/
+    padding: 15px;
+    position: relative;
+    right: 100px;
+}
+
+nav a {
+    /* border: 2px blue solid; */
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: block;
+    line-height: 60px;
+}
+
+nav a:hover {
+    color: rgba(0, 0, 0, 0.75);
+}
+
+nav ul.parent ul.child {
+    /* border: 2px red solid; */
+    /* display: none; */
+    opacity: 0;
+    z-index: -1;
+    position: absolute;
+    top: 80%;
+    width: 180px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 1px 1px 2px lightgray;
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    transform: translateY(50px);
+    pointer-events: none;
+}
+
+nav ul.parent>li:hover ul.child {
+    opacity: 1;
+    z-index: 99;
+    transform: translateY(0);
+    pointer-events: all;
+}
+
+nav ul.parent ul.child ul.grandchild {
+    opacity: 0;
+    z-index: -2;
+    position: absolute;
+    left: 90%;
+    width: 180px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 1px 1px 2px lightgray;
+    transform: translateY(-120px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    pointer-events: none;
+}
+
+nav ul.parent>li:hover ul.child>li:hover ul.grandchild {
+    opacity: 1;
+    z-index: 99;
+    transform: translateY(-70px);
+    pointer-events: all;
+}
+
+nav ul.parent ul.search {
+    width: 280px;
+}
+
+nav ul.parent ul.search button {
+    height: 32px;
+    width: 32px;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: black;
+}
+
+nav ul.parent ul.search button i {
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+nav ul.parent ul.child input {
+    width: 240px;
+}

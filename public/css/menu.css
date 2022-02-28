@@ -1,0 +1,176 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.menu {
+    /* border: 2px red solid; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 280px;
+    background: #11101d;
+    padding: 6px 14px;
+}
+
+.menu .logo_content .logo {
+    /* border: 2px solid yellowgreen; */
+    color: #fff;
+    display: flex;
+    /*Hiển thị logo và chữ cùng 1 dòng*/
+    height: 100px;
+    width: 100%;
+    align-items: center;
+}
+
+.logo_content .logo img {
+    margin-right: 5px;
+}
+
+.logo_content .logo .logo_name {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.menu ul {
+    /* border: 2px solid palevioletred; */
+    margin-top: 20px;
+}
+
+.menu ul li {
+    /* border: 2px solid goldenrod; */
+    position: relative;
+    list-style: none;
+    height: 50px;
+    width: 100%;
+    margin: 0 5px;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.menu ul li input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    background: #2b2849;
+    padding-left: 50px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.menu ul li .bx-search {
+    position: absolute;
+    z-index: 99;
+    color: #fff;
+    font-size: 22px;
+}
+
+.menu ul li a {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    border-radius: 12px;
+}
+
+.menu ul li a:hover {
+    color: #11101d;
+    background: #fff;
+}
+
+.menu ul li i {
+    height: 50px;
+    min-width: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.menu .profile_content {
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.menu .profile_content .profile {
+    position: relative;
+    padding: 10px 6px;
+    height: 60px;
+    background: #2b2849;
+}
+
+.profile_content .profile .profile_details {
+    display: flex;
+    align-items: center;
+}
+
+.profile .profile_details img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.profile .profile_details .name_job {
+    margin-left: 10px;
+}
+
+.profile .profile_details .name {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.profile .profile_details .job {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.profile #log_out {
+    position: absolute;
+    left: 88%;
+    bottom: 5px;
+    transform: translateX(-50%);
+    min-width: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    border-radius: 12px;
+}
+
+.header {
+    /* border: 2px solid blue; */
+    background: rgb(240, 232, 247);
+    position: absolute;
+    /* height: 100%; */
+    height: 100px;
+    width: calc(100% - 280px);
+    left: 280px;
+}
+
+.header .text {
+    font-size: 40px;
+    font-weight: 500;
+    color: #11101d;
+    margin: 12px;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 3px 3px 4px rgba(213, 85, 245, 0.877);
+}

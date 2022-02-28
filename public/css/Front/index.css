@@ -1,0 +1,38 @@
+/*COVER-IMAGE*/
+
+.content .cover-image img {
+    height: 600px;
+    width: 1500px;
+    margin: 0 auto;
+    display: block;
+}
+
+.content .spm-wrap,
+.content .spnb-wrap {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sp-moi img,
+.sp-noibat img {
+    height: 480px;
+    width: 320px;
+}
+
+.sp-moi,
+.sp-noibat {
+    margin: 20px 0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.sp-moi h2,
+.sp-noibat h2 {
+    padding: 15px;
+    font-size: 35px;
+}
+
+.sp-moi .spm-info,
+.sp-noibat .spnb-info {
+    font-weight: bold;
+}

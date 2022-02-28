@@ -1,0 +1,113 @@
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.content .img-container img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.content .img-container {
+    width: 35%;
+    position: relative;
+}
+
+.content .img-container .img-slides {
+    display: none;
+}
+
+.content .img-container .prev,
+.content .img-container .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    transform: translateY(-50px);
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 5px 5px 0;
+    /* user-select: none;
+    -webkit-user-select: none; */
+}
+
+.content .img-container .next {
+    right: 0;
+    border-radius: 5px 0 0 5px;
+}
+
+.content .img-container .prev:hover,
+.content .img-container .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.content .img-container .thumbnail {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.content .img-container .thumbnail .img-thumbnail {
+    cursor: pointer;
+    width: 15%;
+    opacity: .6;
+}
+
+.content .img-container .thumbnail .img-thumbnail:hover,
+.content .img-container .thumbnail .img-thumbnail.active {
+    opacity: 1;
+}
+
+.content .infor {
+    line-height: 40px;
+    padding-top: 40px;
+    text-justify: 5px;
+}
+
+.content .infor p {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.content .infor h1 {
+    line-height: 60px;
+}
+
+.content .infor input[type=number] {
+    margin-left: 20px;
+    height: 40px;
+    width: 100px;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.content .infor input[type=number]:focus {
+    outline: none;
+}
+
+.content .infor label {
+    font-size: 24px;
+}
+
+.content .infor .form-container {
+    margin-top: 30px;
+}
+
+.content .infor input[type=submit] {
+    margin-top: 50px;
+    height: 40px;
+    width: 80%;
+    font-size: 18px;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+}
+
+.content .infor input[type=submit]:hover {
+    background-color: rgba(200, 214, 214, 0.656);
+}

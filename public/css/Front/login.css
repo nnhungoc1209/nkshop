@@ -1,0 +1,41 @@
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+
+.content h1 {
+    margin: 10px 0;
+}
+
+.content .login {
+    width: 45%;
+}
+
+.content .sign-up {
+    width: 45%;
+}
+
+.content input {
+    height: 30px;
+    width: 75%;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.content input:focus {
+    outline: none;
+}
+
+.content input[type=submit] {
+    margin-top: 30px;
+    color: whitesmoke;
+    background-color: black;
+    height: 45px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.content form {
+    line-height: 35px;
+}

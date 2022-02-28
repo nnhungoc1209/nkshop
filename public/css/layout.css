@@ -1,0 +1,10 @@
+.content {
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 280px;
+    top: 100px;
+    width: calc(100% - 280px);
+    /* height: 100%; */
+    padding: 0 50px;
+    padding-bottom: 30px;
+}
