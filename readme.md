@@ -52,13 +52,28 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 
 
-<img width="80%" src="resources/assets/img/shop/mainpage.PNG" alt="admin-oder"> <br />
-<img width="80%" src="resources/assets/img/shop/newproduct.PNG" alt="new-product"> <br />
-<img width="80%" src="resources/assets/img/shop/hotproduct.PNG" alt="hot-product"> <br />
-<img src="resources/assets/img/shop/search.PNG" alt="search"> <br />
-<img width="80%" src="resources/assets/img/shop/cart.jpg" alt="cart"> <br />
+<img width="80%" src="resources/assets/img/shop/mainpage.PNG" alt="admin-oder">
+<p style="text-align: center; font-size: 24px"><i>Home page</i></p> <br />
+
+<img width="80%" src="resources/assets/img/shop/newproduct.PNG" alt="new-product">
+<p style="text-align: center; font-size: 24px"><i>Top the newest products</i></p> <br />
+
+<img width="80%" src="resources/assets/img/shop/hotproduct.PNG" alt="hot-product">
+<p style="text-align: center; font-size: 24px"><i>Top best seller products</i></p> <br />
+
+<img src="resources/assets/img/shop/search.PNG" alt="search">
+<p style="text-align: center; font-size: 24px"><i>Search feature for user to find the product that they want</i></p>
+<br />
+
+<img width="80%" src="resources/assets/img/shop/cart.jpg" alt="cart">
+<p style="text-align: center; font-size: 24px"><i>User's cart</i></p><br />
 
 
-<img width="80%" src="resources/assets/img/admin/product.jpg" alt="admin-product"> <br />
-<img width="80%" src="resources/assets/img/admin/oder.jpg" alt="admin-oder"> <br />
+<img width="80%" src="resources/assets/img/admin/product.jpg" alt="admin-product">
+<p style="text-align: center; font-size: 24px"><i>Admin's products management feature</i></p><br />
+
+<img width="80%" src="resources/assets/img/admin/oder.jpg" alt="admin-oder">
+<p style="text-align: center; font-size: 24px"><i>Admin's orders management feature</i></p><br />
+
 <img width="80%" src="resources/assets/img/admin/oder-detail.jpg" alt="admin-oder-detail">
+<p style="text-align: center; font-size: 24px"><i>Admin's orders detail viewing feature</i></p>
